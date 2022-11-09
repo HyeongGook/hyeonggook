@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <meta charset="utf-8" />
+  </head>
+  <body
+    style="
+      background-color: black;
+      margin-top: 10%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    "
+  >
     <script>
       let x, y;
       let minutesRadius = radius * 0.6;
@@ -56,3 +72,5 @@
         );
       }
     </script>
+  </body>
+</html>
